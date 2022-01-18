@@ -17,14 +17,14 @@ public class Main {
         
         for (int i = 0; i < 10; i++) {
         	int tmp = 0;
-        	 for (int j = i + 1; j < 10; j++) {
-             	if(arr[i] == arr[j]) {
-             		tmp++;
-             	}
-             }
-        	 if (tmp == 0) {
-        		 cnt ++;
-        	 }
+        	for (int j = i + 1; j < 10; j++) {
+        		if(arr[i] == arr[j]) {
+        			tmp++;
+        		}
+            }
+        	if (tmp == 0) {
+        		cnt ++;
+        	}
         }
        
         System.out.println(cnt);

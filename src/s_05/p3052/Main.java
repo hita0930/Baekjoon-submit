@@ -21,7 +21,7 @@ public class Main {
         		if(arr[i] == arr[j]) {
         			tmp++;
         		}
-            }
+        	}
         	if (tmp == 0) {
         		cnt ++;
         	}

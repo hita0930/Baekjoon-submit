@@ -1,8 +1,9 @@
-package a_00;
+package s_07.p1152;
 
 import java.io.BufferedReader;
 import java.io.InputStreamReader;
 import java.io.IOException;
+import java.util.StringTokenizer;
 
 public class Main {
 	
@@ -10,7 +11,8 @@ public class Main {
 		
 		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
 		
-		int N = Integer.parseInt(br.readLine());
+		StringTokenizer str = new StringTokenizer(br.readLine(), " ");
+		System.out.println(str.countTokens());
 		
 	}
 	
